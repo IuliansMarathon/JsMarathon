@@ -22,9 +22,9 @@ const player2 = {
     }
 }
 
-function createPlayer(playerClass, playerName) {
+const $arenas = document.querySelector('.arenas');
 
-    const $arenas = document.querySelector('.arenas');
+function createPlayer(playerClass, playerName) {
 
     const $player = document.createElement('div');
     $player.classList.add(playerClass);
